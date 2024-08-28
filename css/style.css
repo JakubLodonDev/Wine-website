@@ -1,0 +1,113 @@
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #444;
+  font-size: 62.5%;
+
+  font-family: "Rajdhani", sans-serif;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+}
+
+.logo {
+  height: 10rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 9rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  padding: 4rem 4rem;
+}
+
+.hero {
+  /* width: 60rem;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+
+  transform: translate(-50%, -50%); */
+  margin: 0 auto;
+  width: 180rem;
+  column-gap: 70rem;
+}
+
+.headring-primary {
+  color: #ffd04e;
+  font-size: 6.2rem;
+}
+
+.hero-text-box {
+  color: #fff;
+  font-size: 3.6rem;
+  width: 100%;
+}
+
+.section-hero {
+  margin: 0 auto;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(129, 74, 104, 0.45),
+      rgba(129, 74, 104, 0.45)
+    ),
+    url(../content/img/background-odbicie.png);
+  background-size: cover;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.margin-bottom-bg {
+  margin-bottom: 6.4rem !important;
+}
+
+.margin-bottom-hg {
+  margin-bottom: 12.8rem !important;
+}
