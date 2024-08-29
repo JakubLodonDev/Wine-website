@@ -14,7 +14,7 @@
 }
 
 html {
-  color: #444;
+  color: #fff;
   font-size: 62.5%;
 
   font-family: "Rajdhani", sans-serif;
@@ -38,11 +38,15 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
+/**************************/
+/* HERO SECTION */
+/**************************/
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6rem 6.4rem;
 }
 
 .logo {
@@ -66,16 +70,20 @@ html {
   padding: 4rem 4rem;
 }
 
-.hero {
-  /* width: 60rem;
-  position: absolute;
-  left: 20%;
-  top: 30%;
-
-  transform: translate(-50%, -50%); */
+.section-hero {
   margin: 0 auto;
-  width: 180rem;
-  column-gap: 70rem;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(50, 40, 53, 0.45),
+      rgba(50, 40, 53, 0.45)
+    ),
+    url(../content/img/background-odbicie.png);
+  background-size: cover;
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 200rem;
 }
 
 .headring-primary {
@@ -86,20 +94,62 @@ html {
 .hero-text-box {
   color: #fff;
   font-size: 3.6rem;
-  width: 100%;
+  text-align: left;
+  padding: 6.4rem;
 }
 
-.section-hero {
+.hero-description {
+  max-width: 60rem;
+}
+
+/**************************/
+/* ABOUT SECTION */
+/**************************/
+
+.section-about {
+  border-top: 3px solid #ffd04e;
+  background-color: #322835;
+}
+
+.about {
   margin: 0 auto;
-  height: 100vh;
-  background-image: linear-gradient(
-      rgba(129, 74, 104, 0.45),
-      rgba(129, 74, 104, 0.45)
-    ),
-    url(../content/img/background-odbicie.png);
-  background-size: cover;
+  max-width: 200rem;
+  align-items: center;
+  justify-items: center;
 }
 
+.about-container {
+  padding: 24.4rem 6.4rem;
+  align-self: center;
+}
+
+.heading-secondary {
+  font-size: 5.2rem;
+  color: #ffd04e;
+
+  box-shadow: inset 0px -5px 0px 0px #f1c40f;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.about-text {
+  color: #fff;
+  font-size: 3.6rem;
+}
+
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-img img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* HELPER/SETTINGS CLASSES */
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
