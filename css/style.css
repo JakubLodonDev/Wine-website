@@ -38,6 +38,35 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.headring-primary {
+  color: #ffd04e;
+  font-size: 6.2rem;
+}
+
+.heading-secondary {
+  font-size: 5.2rem;
+  color: #ffd04e;
+
+  /* box-shadow: inset 0px -5px 0px 0px #f1c40f; */
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.link:link,
+.link:visited {
+  display: inline;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -86,11 +115,6 @@ html {
   max-width: 200rem;
 }
 
-.headring-primary {
-  color: #ffd04e;
-  font-size: 6.2rem;
-}
-
 .hero-text-box {
   color: #fff;
   font-size: 3.6rem;
@@ -123,30 +147,126 @@ html {
   align-self: center;
 }
 
-.heading-secondary {
-  font-size: 5.2rem;
-  color: #ffd04e;
+.about-container h2 {
+  display: inline-block;
+  position: relative;
+}
 
-  box-shadow: inset 0px -5px 0px 0px #f1c40f;
-  padding-bottom: 10px;
-  font-weight: normal;
+.about-container h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+  height: 3px;
+  background-color: #f1c40f;
+  transform: translatex(6rem);
 }
 
 .about-text {
   color: #fff;
-  font-size: 3.6rem;
+  font-size: 3rem;
 }
 
-.container-img {
+.about-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container-img img {
+.about-img img {
   width: 70%;
   height: 100%;
   object-fit: cover;
+}
+
+/**************************/
+/* COLLECTION SECTION */
+/**************************/
+
+.section-collection {
+  padding: 9.6rem 0;
+  border-top: 3px solid #ffd04e;
+  background-color: #322835;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  justify-items: center;
+}
+
+.collection-card {
+  position: relative;
+  width: 30rem;
+  height: 50rem;
+  border: 2px solid #ffd04e;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.collection-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: filter 0.3s ease;
+}
+
+.card-img:hover img {
+  filter: blur(5px);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(78, 50, 71, 0.7);
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.text-overlay p {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.text-overlay span {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffd04e;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.collection-card:hover .text-overlay {
+  transform: translateY(0);
+}
+
+.all-wines {
+  padding: 0 auto;
+  text-align: center;
+  font-size: 2.4rem;
 }
 
 /* HELPER/SETTINGS CLASSES */
