@@ -46,10 +46,7 @@ html {
 .heading-secondary {
   font-size: 5.2rem;
   color: #ffd04e;
-
-  /* box-shadow: inset 0px -5px 0px 0px #f1c40f; */
   padding-bottom: 10px;
-  font-weight: normal;
 }
 
 .link:link,
@@ -136,6 +133,7 @@ html {
 }
 
 .about {
+  padding: 9.6rem 0;
   margin: 0 auto;
   max-width: 200rem;
   align-items: center;
@@ -191,16 +189,21 @@ html {
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 160rem;
   margin: 0 auto;
   padding: 0 3.2rem;
   justify-items: center;
+  column-gap: 4.8rem;
+}
+
+.container h2 {
+  text-align: center;
 }
 
 .collection-card {
   position: relative;
-  width: 30rem;
-  height: 50rem;
+  width: 40rem;
+  height: 60rem;
   border: 2px solid #ffd04e;
   border-radius: 5px;
   overflow: hidden;
@@ -279,5 +282,5 @@ html {
 }
 
 .margin-bottom-hg {
-  margin-bottom: 12.8rem !important;
+  margin-bottom: 9.6rem !important;
 }
