@@ -68,6 +68,23 @@ html {
   border-bottom: 1px solid transparent;
 }
 
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 3px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -342,6 +359,72 @@ html {
   font-size: 2.4rem;
   padding: 0 8rem;
   text-align: center;
+}
+
+/**************************/
+/* NEWSLETTER SECTION */
+/**************************/
+
+.section-newsletter {
+  padding: 9.6rem 0;
+  border-top: 3px solid #ffd04e;
+  background-color: #322835;
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  column-gap: 9.6rem;
+  align-items: center;
+}
+
+.newsletter-content {
+  padding: 0 9.6rem;
+}
+
+.newsletter-content p {
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+}
+
+.newsletter-form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 9.6rem;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 2rem;
+  background-color: #75618f;
+  border: none;
+  color: #fff;
+}
+
+.newsletter-form input::placeholder {
+  color: #ccc;
+}
+
+.btn--form {
+  align-self: end;
+  padding: 1.2rem;
+  color: #fff;
+  background-color: #322835;
+  border: 2px solid #ffd04e;
+}
+
+.btn--form:hover {
+  background-color: #ffd04e;
+  color: #75618f;
+}
+
+.newsletter-img {
+  padding-right: 6.4rem;
+}
+
+.newsletter-img img {
+  width: 100%;
 }
 
 /* HELPER/SETTINGS CLASSES */
