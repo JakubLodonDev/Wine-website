@@ -427,6 +427,93 @@ html {
   width: 100%;
 }
 
+/**************************/
+/* NEWSLETTER SECTION */
+/**************************/
+
+.footer {
+  padding: 9.6rem 0;
+  border-top: 3px solid #ffd04e;
+  background-color: #322835;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #bdbdbd;
+  margin-top: auto;
+  padding: 0 9.6rem;
+  text-align: center;
+}
+
+.footer-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  color: #bdbdbd;
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2.4rem;
+}
+
+.address-col,
+.nav-col {
+  padding-top: 4.8rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #bdbdbd;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #adadad;
+}
+
 /* HELPER/SETTINGS CLASSES */
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
