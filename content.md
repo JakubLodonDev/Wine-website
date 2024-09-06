@@ -1,61 +1,53 @@
 # Vinum Aureum
 
-Opis: Nazwa nawiązuje do złotego standardu wina (aureum to po łacinie "złoto"). Sugeruje wysoką jakość, elegancję i prestiż.
+Description: The name references the golden standard of wine ("aureum" means "gold" in Latin). It suggests high quality, elegance, and prestige.
 
-1. Strona główna:
+1. Home Page:
 
-   ## Nagłówek: "Vinum Aureum - Esencja Elegancji w Każdej Kropli"
+   ## Header: "Vinum Aureum - The Essence of Elegance in Every Drop"
 
-   "Odkryj naszą winnicę, gdzie tradycja spotyka nowoczesność, a każde wino opowiada swoją historię."
+   "Discover our vineyard, where tradition meets modernity, and every wine tells its own story."
 
-   "Vinum Aureum to synonim doskonałości i luksusu. W sercu naszej winnicy, w otoczeniu malowniczych krajobrazów, powstają wina, które zadowolą najbardziej wymagających koneserów. Tworzymy wina z pasją, korzystając z najlepszych winogron i łącząc tradycyjne metody z nowoczesną technologią."
-   Przycisk CTA: "Poznaj naszą ofertę"
+   "Vinum Aureum is synonymous with excellence and luxury. Nestled in picturesque landscapes, our vineyard produces wines that satisfy the most discerning connoisseurs. We craft our wines with passion, using the finest grapes and blending traditional methods with modern technology."
 
-2. O nas:
+2. About Us:
 
-   ## "Nasza Historia"
+   ## "Our Story"
 
-   Treść: "Vinum Aureum narodziło się z pasji do tworzenia wyjątkowych win. Nasza winnica znajduje się w jednym z najpiękniejszych regionów winiarskich, gdzie klimat i gleba sprzyjają uprawie najlepszych winogron. Od wielu pokoleń doskonalimy sztukę winiarstwa, łącząc tradycję z nowoczesnością. Naszym celem jest tworzenie win, które zaskakują bogactwem smaku i aromatu, a jednocześnie oddają ducha miejsca, z którego pochodzą."
-   Zdjęcia: Można tu umieścić zdjęcia winnicy, procesu produkcji, a także portrety założycieli lub pracowników.
+   Content: "Vinum Aureum was born from a passion for creating exceptional wines. Our vineyard is located in one of the most beautiful wine regions, where the climate and soil are perfect for growing the finest grapes. For generations, we have perfected the art of winemaking, blending tradition with modernity. Our goal is to create wines that surprise with their rich flavors and aromas, while embodying the spirit of the place from which they originate."
 
-3. Nasze wina:
+   Photos: You can include photos of the vineyard, the winemaking process, and portraits of the founders or staff.
 
-   ## "Odkryj Nasze Kolekcje"
+3. Our Wines:
 
-   Opis każdej kolekcji:
-   Kolekcja "Resplenda" (wina białe): "Wina tej kolekcji cechują się świeżością i delikatnością. Doskonale komponują się z lekkimi daniami i owocami morza."
-   Kolekcja "Rubra" (wina czerwone): "Bogate i pełne smaku wina czerwone, które doskonale sprawdzają się w towarzystwie mięs i dojrzewających serów."
-   Kolekcja "Aurora" (wina różowe): "Lekkie, owocowe wina różowe, które idealnie orzeźwiają w gorące dni."
-   Pod każdą kolekcją: "Dowiedz się więcej" (link do szczegółowych opisów każdego wina).
+   ## "Discover Our Collections"
 
-4. Proces produkcji:
+   Description of Each Collection:
+   "Resplenda Collection" (white wines): "This collection features fresh and delicate wines. Perfectly paired with light dishes and seafood."
+   "Rubra Collection" (red wines): "Rich and full-bodied red wines, ideal for pairing with meats and aged cheeses."
+   "Aurora Collection" (rosé wines): "Light, fruity rosé wines, perfect for refreshing hot summer days."
 
-   ## "Nasze Rzemiosło"
+   Under each collection: "Learn More" (link to detailed descriptions of each wine).
 
-   Treść: "Każde wino Vinum Aureum jest wynikiem starannego procesu, który łączy tradycyjne metody z najnowszymi osiągnięciami winiarstwa. Nasze winogrona są zbierane ręcznie, a proces fermentacji odbywa się w optymalnych warunkach, co pozwala na uzyskanie wyjątkowego smaku i aromatu. Dzięki dbałości o każdy szczegół, nasze wina są prawdziwą ucztą dla zmysłów."
-   Zdjęcia: Proces zbioru winogron, fermentacja, beczki z winem.
+4. Our Craft:
 
-5. Kontakt:
+   ## "Our Craft"
 
-   ## "Skontaktuj się z nami"
+   Content: "Each Vinum Aureum wine is the result of a careful process that combines traditional methods with the latest achievements in winemaking. Our grapes are handpicked, and the fermentation process takes place under optimal conditions, allowing for the development of exceptional flavor and aroma. With attention to every detail, our wines are a true feast for the senses."
+   Photos: Images of grape harvesting, fermentation, wine barrels.
 
-   Treść: "Jeśli masz pytania, chcesz dowiedzieć się więcej o naszych winach lub złożyć zamówienie, jesteśmy do Twojej dyspozycji. Skontaktuj się z nami za pomocą poniższego formularza lub zadzwoń bezpośrednio."
-   Formularz kontaktowy: Imię, e-mail, telefon, wiadomość.
-   Dane kontaktowe: Adres winnicy, telefon, e-mail.
-
-6. Blog:
-
-   ## "Pasja do Wina"
-
-   Przykładowe posty:
-   "Jak dobrać wino do potrawy: Porady od naszych sommelierów"
-   "Sekrety winifikacji: Jak powstają nasze wina?"
-   "Winnica w centrum uwagi: Historia naszego regionu winiarskiego"
+5. Contact Us:
 
    ### Newsletter:
 
-   Zaproponuj zapis do newslettera z ekskluzywnymi ofertami i informacjami o nowych produktach.
+   Offer a newsletter sign-up with exclusive offers and news about new products.
 
-   ### Certyfikaty jakości:
+6. Quality Certifications:
 
-   Jeśli firma posiada certyfikaty jakości lub inne wyróżnienia, warto je umieścić na stronie w sekcji "O nas" lub na stronie głównej.
+   ### Certificates & Awards:
+
+   The "Certified Sustainable" from California is a symbol confirming that the wine was produced according to rigorous sustainable farming standards, which include environmental protection, social responsibility, and economic efficiency. This symbol is particularly valued by consumers who are looking for environmentally friendly products.
+
+   The "Certified Specialist of Wine" (CSW) awarded by the Society of Wine Educators (SWE) is a prestigious distinction for wine industry professionals, confirming advanced knowledge of wines, including their production, history, and tasting. This certification is recognized worldwide as proof of high competence in the field of wine.
+
+   The Gold Medal from the Wine Luxe International Awards 2023 highlights that the wine received the highest ratings in this international competition. This badge symbolizes recognition of the exceptional quality of the wine, which stands out for its excellent taste, aroma, and production technique.

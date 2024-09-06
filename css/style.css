@@ -73,6 +73,7 @@ html {
 .btn:visited {
   display: inline-block;
 
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
@@ -83,6 +84,60 @@ html {
   cursor: pointer;
   font-family: inherit;
   transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: rgba(53, 50, 54, 0.39);
+  border: 2px solid #ffd04e;
+  font-size: 2.4rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #ffd04e;
+  color: #75618f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #534564;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: transparent;
+  color: #997ebb;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 9rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline;
+  text-decoration: none;
+  color: #cacaca;
+  font-weight: 500;
+  font-size: 3rem;
+  padding: 4rem 4rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ffd04e;
 }
 
 /**************************/
@@ -98,23 +153,6 @@ html {
 
 .logo {
   height: 10rem;
-}
-
-.main-nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  padding: 3rem 0;
-  gap: 9rem;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  display: inline;
-  text-decoration: none;
-  color: #fff;
-  font-size: 3rem;
-  padding: 4rem 4rem;
 }
 
 .section-hero {
@@ -142,6 +180,7 @@ html {
 
 .hero-description {
   max-width: 60rem;
+  padding-bottom: 4.8rem;
 }
 
 /**************************/
@@ -162,7 +201,7 @@ html {
 }
 
 .about-container {
-  padding: 24.4rem 6.4rem;
+  padding: 9.6rem 6.4rem;
   align-self: center;
 }
 
@@ -525,4 +564,8 @@ html {
 
 .margin-bottom-hg {
   margin-bottom: 9.6rem !important;
+}
+
+.margin-right-sm {
+  margin-right: 2.4rem !important;
 }
