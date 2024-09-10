@@ -176,11 +176,6 @@
 /**************************/
 
 @media (max-width: 46em) {
-  html {
-    /* 6px  */
-    /* font-size: 37.5%; */
-  }
-
   .hero-text-box {
     text-align: center;
     align-items: center;
@@ -270,13 +265,6 @@
   .order-container:last-child {
     grid-column: 1;
   }
-}
-
-/**************************/
-/* BELOW 544px (Phones) */
-/**************************/
-
-@media (max-width: 34em) {
 }
 
 /**************************/
