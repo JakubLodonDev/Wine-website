@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,14 +35,19 @@
 
           <nav class="main-nav">
             <ul class="main-nav-list">
-              <li><a class="main-nav-link" href="#">Our Story</a></li>
+              <li><a class="main-nav-link" href="#about">Our Story</a></li>
               <li>
-                <a class="main-nav-link" href="#">Our Wines</a>
+                <a class="main-nav-link" href="#collection">Our Wines</a>
               </li>
-              <li><a class="main-nav-link" href="#">Our Craft</a></li>
-              <li><a class="main-nav-link" href="#">News</a></li>
+              <li><a class="main-nav-link" href="#orders">Our Craft</a></li>
+              <li><a class="main-nav-link" href="#newsletter">News</a></li>
             </ul>
           </nav>
+
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
         </header>
 
         <div class="hero">
@@ -51,13 +57,17 @@
               Discover our vineyard, where tradition meets modernity, and every
               wine tells its own story.
             </p>
-            <a href="" class="btn btn--full margin-right-sm">Drink with us</a>
-            <a href="" class="btn btn--outline">Learn more</a>
+            <div class="hero-btn">
+              <a href="#newsletter" class="btn btn--full margin-right-sm"
+                >Drink with us</a
+              >
+              <a href="#proces" class="btn btn--outline">Learn more</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="about grid grid--2-cols">
           <div class="about-container">
             <h2 class="heading-secondary margin-bottom-bg">Our Story</h2>
@@ -72,12 +82,12 @@
             </p>
           </div>
           <div class="about-img">
-            <img src="content/img/grapes.avif" alt="Grapes" />
+            <img src="content/img/grapes.webp" alt="Grapes" />
           </div>
         </div>
       </section>
 
-      <section class="section-collection">
+      <section class="section-collection" id="collection">
         <div class="container margin-bottom-hg">
           <h2 class="heading-secondary heading-center">
             Discover Our Collections
@@ -86,7 +96,7 @@
         <div class="container grid grid--3-cols margin-bottom-bg">
           <div class="collection-card">
             <div class="card-img">
-              <img src="content/img/collectionCards/whiteWine.jpg" alt="" />
+              <img src="content/img/collectionCards/whiteWine.webp" alt="" />
             </div>
             <div class="text-overlay">
               <span>"Resplenda"<br />Collection</span>
@@ -99,7 +109,7 @@
 
           <div class="collection-card">
             <div class="card-img">
-              <img src="content/img/collectionCards/redWine.jpg" alt="" />
+              <img src="content/img/collectionCards/redWine.webp" alt="" />
             </div>
             <div class="text-overlay">
               <span>"Rubra"<br />Collection</span>
@@ -112,7 +122,7 @@
 
           <div class="collection-card">
             <div class="card-img">
-              <img src="content/img/collectionCards/pinkWine.jpg" alt="" />
+              <img src="content/img/collectionCards/pinkWine.webp" alt="" />
             </div>
             <div class="text-overlay">
               <span>"Aurora"<br />Collection</span>
@@ -128,7 +138,7 @@
         </div>
       </section>
 
-      <section class="section-proces">
+      <section class="section-proces" id="proces">
         <div class="container margin-bottom-hg">
           <h2 class="heading-secondary">Our Craft</h2>
         </div>
@@ -154,11 +164,11 @@
             </p>
           </div>
           <div class="proces-img">
-            <img src="content/img/proces/processing.jpg" alt="" />
+            <img src="content/img/proces/processing.webp" alt="" />
           </div>
 
           <div class="proces-img">
-            <img src="content/img/proces/tasting.jpg" alt="" />
+            <img src="content/img/proces/tasting.webp" alt="" />
           </div>
           <div class="proces-text">
             <h3>Tasting</h3>
@@ -170,59 +180,65 @@
         </div>
       </section>
 
-      <section class="sectionn-orders">
+      <section class="sectionn-orders" id="orders">
         <div class="container margin-bottom-hg">
           <h2 class="heading-secondary heading-center">
             Certificates & Awards
           </h2>
         </div>
         <div class="container grid grid--3-cols">
-          <div class="order-img">
-            <img src="content/img/orders/CCSWv2.png" alt="" />
+          <div class="order-container">
+            <div class="order-img">
+              <img src="content/img/orders/CCSWv2.webp" alt="" />
+            </div>
+            <div class="order-description">
+              The "Certified Sustainable" from California is a symbol confirming
+              that the wine was produced according to rigorous sustainable
+              farming standards, which include environmental protection, social
+              responsibility, and economic efficiency. This symbol is
+              particularly valued by consumers who are looking for
+              environmentally friendly products.
+            </div>
           </div>
-          <div class="order-img">
-            <img src="content/img/orders/CSW.png" alt="" />
+
+          <div class="order-container">
+            <div class="order-img">
+              <img src="content/img/orders/CSW.webp" alt="" />
+            </div>
+            <div class="order-description">
+              The "Certified Specialist of Wine" (CSW) awarded by the Society of
+              Wine Educators (SWE) is a prestigious distinction for wine
+              industry professionals, confirming advanced knowledge of wines,
+              including their production, history, and tasting. This
+              certification is recognized worldwide as proof of high competence
+              in the field of wine.
+            </div>
           </div>
-          <div class="order-img">
-            <img
-              src="content/img/orders/WineLuxeAwardLogos(2023)GOLD.png"
-              alt=""
-            />
-          </div>
-          <div class="order-description">
-            The "Certified Sustainable" from California is a symbol confirming
-            that the wine was produced according to rigorous sustainable farming
-            standards, which include environmental protection, social
-            responsibility, and economic efficiency. This symbol is particularly
-            valued by consumers who are looking for environmentally friendly
-            products.
-          </div>
-          <div class="order-description">
-            The "Certified Specialist of Wine" (CSW) awarded by the Society of
-            Wine Educators (SWE) is a prestigious distinction for wine industry
-            professionals, confirming advanced knowledge of wines, including
-            their production, history, and tasting. This certification is
-            recognized worldwide as proof of high competence in the field of
-            wine.
-          </div>
-          <div class="order-description">
-            The Gold Medal from the Wine Luxe International Awards 2023
-            highlights that the wine received the highest ratings in this
-            international competition. This badge symbolizes recognition of the
-            exceptional quality of the wine, which stands out for its excellent
-            taste, aroma, and production technique.
+
+          <div class="order-container">
+            <div class="order-img">
+              <img
+                src="content/img/orders/WineLuxeAwardLogos(2023)GOLD.webp"
+                alt=""
+              />
+            </div>
+            <div class="order-description">
+              The Gold Medal from the Wine Luxe International Awards 2023
+              highlights that the wine received the highest ratings in this
+              international competition. This badge symbolizes recognition of
+              the exceptional quality of the wine, which stands out for its
+              excellent taste, aroma, and production technique.
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section-newsletter">
+      <section class="section-newsletter" id="newsletter">
         <div class="newsletter container">
           <div class="newsletter-content">
-            <div class="margin-bottom-md">
-              <h2 class="heading-secondary">Newsletter</h2>
-            </div>
+            <h2 class="heading-secondary margin-bottom-md">Newsletter</h2>
             <p>
-              "If you want to follow our activities and stay up to date with the
+              If you want to follow our activities and stay up to date with the
               world of wine, we invite you to subscribe to our newsletter.
             </p>
 
@@ -241,7 +257,7 @@
             </form>
           </div>
           <div class="newsletter-img">
-            <img src="content/img/newsletter.jpg" alt="" />
+            <img src="content/img/newsletter.webp" alt="" />
           </div>
         </div>
       </section>
@@ -257,14 +273,20 @@
             />
           </a>
           <ul class="social-links">
-            <li class="footer-link" href="#">
-              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
             </li>
-            <li class="footer-link" href="#">
-              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
             </li>
-            <li class="footer-link" href="#">
-              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
             </li>
           </ul>
           <p class="copyright">

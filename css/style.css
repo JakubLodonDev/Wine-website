@@ -18,6 +18,13 @@ html {
   font-size: 62.5%;
 
   font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .grid {
@@ -140,6 +147,28 @@ html {
   color: #ffd04e;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.btn-mobile-nav .nav-open {
+  color: #333;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #ffffff;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -162,7 +191,7 @@ html {
       rgba(50, 40, 53, 0.45),
       rgba(50, 40, 53, 0.45)
     ),
-    url(../content/img/background-odbicie.png);
+    url(../content/img/background-odbicie.webp);
   background-size: cover;
 }
 
@@ -176,10 +205,12 @@ html {
   font-size: 3.6rem;
   text-align: left;
   padding: 6.4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-description {
-  max-width: 60rem;
+  width: 60rem;
   padding-bottom: 4.8rem;
 }
 
@@ -323,7 +354,7 @@ html {
 }
 
 .all-wines {
-  padding: 0 auto;
+  padding: 0;
   text-align: center;
   font-size: 2.4rem;
 }
@@ -383,20 +414,27 @@ html {
   background-color: #322835;
 }
 
+.order-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .order-img {
+  display: flex;
+  justify-content: center;
   height: 30rem;
 }
 
 .order-img img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   filter: grayscale(100%) brightness(50%);
 }
 
 .order-description {
   font-size: 2.4rem;
-  padding: 0 8rem;
+  padding: 4.8rem 8rem 0rem 8rem;
   text-align: center;
 }
 
@@ -418,7 +456,7 @@ html {
 }
 
 .newsletter-content {
-  padding: 0 9.6rem;
+  padding: 0 6.4rem;
 }
 
 .newsletter-content p {
@@ -429,7 +467,8 @@ html {
 .newsletter-form {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  column-gap: 9.6rem;
+  column-gap: 6.4rem;
+  align-items: center;
 }
 
 .newsletter-form input {
@@ -459,11 +498,12 @@ html {
 }
 
 .newsletter-img {
-  padding-right: 6.4rem;
+  padding-right: 3.2rem;
 }
 
 .newsletter-img img {
   width: 100%;
+  object-fit: contain;
 }
 
 /**************************/
